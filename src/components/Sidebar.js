@@ -3,7 +3,7 @@ import { Home,Github,Instagram,Video,Linkedin, X,Menu} from 'lucide-react';
 // import { Link } from "react-router-dom";
 // import Hamburger from 'hamburger-react'
 function Sidebar() {
-  const [menu , setmenu] = useState()
+  const [menu , setmenu] = useState(true)
    const handleclick = () =>{
     setmenu(!menu)
   }
@@ -15,7 +15,7 @@ function Sidebar() {
         {/* <Hamburger toggled={menu} toggle={setmenu} color="red"/> */}
         {menu ? <Menu className='absolute  z-10 top-6 left-6'color="red" width={40}/> : <X  className='absolute z-10 top-6 left-5 ' color="red" />}
     </div>
-    <div  className = {`bg-[#1c1b23] sidebar overflow-scroll md:m-[1rem] m-[0.2rem] h-[95vh] md:w-[20vw] 100vw ${menu ? "absolute left-[-330px]" : "md:sticky absolute h-[100vh]"}`}>
+    <div  className = {`bg-[#1c1b23] sidebar overflow-scroll md:m-[1rem] m-[0.2rem] h-[95vh] md:w-[20vw] 100vw  ${menu ? "md:sticky absolute left-[-330px]" : "md:sticky absolute h-[100vh]"}`}>
       <div className='m-[2rem] relative '>
         <p className='flex p-[1rem] text-[#818086]' ><Home  className='mx-[10px]' color="#818086"/>Home</p>
          <p className='flex p-[1rem] text-[#818086]' ><Video  className='mx-[10px]' color="#b5169e" />Videos</p>
