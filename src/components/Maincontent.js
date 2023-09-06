@@ -7,7 +7,9 @@ import { MoonStar } from 'lucide-react';
 import ImgMediaCard from './Card';
 
 function Maincontent() {
-  
+  const handleclick = () =>{
+    
+  }
   return (
     <div className= 'sidebar overflow-scroll m-[1rem] h-[95vh] md:w-[80vw] w-[90vw] text-[#818086]'>
         {/* <div className='m-[1rem] sticky top-0 h-[5vh]  flex justify-between '>
@@ -25,7 +27,7 @@ function Maincontent() {
          <h1 className='font-burtons text-xl'>DEVELOPER</h1>
          <ul className='flex items-center'>
            <li>
-             <MoonStar className='cursor-pointer text-2xl' />
+             <MoonStar onClick={handleclick()} className='cursor-pointer text-2xl' />
            </li>
            <li>
              <a className="bg-gradient-to-r from-cyan-500 to-teal-500 px-4 py-2 rounded-lg ml-8 text-white"href='https://google.com'>Resume</a>
