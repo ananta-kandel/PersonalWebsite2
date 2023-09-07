@@ -37,7 +37,7 @@ function Maincontent() {
       <div className='text-center p-10'>
         <h2 className='text-5xl py-2 text-white font-medium'>Ananta kandel</h2>
         <h3 className='text-2xl py-2'>Developer</h3>
-        <p className='text-xl py-5 leading-8'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean semper, lectus sit amet venenatis consequat, libero felis aliquam lorem, eu faucibus sem metus quis lorem</p>
+        <p className='text-xl py-5 leading-8'>Learning and inspiring other</p>
       </div>
       <div className='relative flex justify-center items-center '>
         <img src={personalImage} className='object-fill bg-gradient-to-b from-teal-500 rounded-full h-80 w-80'>

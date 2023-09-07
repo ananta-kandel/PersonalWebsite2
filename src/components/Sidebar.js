@@ -20,7 +20,7 @@ function Sidebar() {
         <p className='flex p-[1rem] text-[#818086]' ><Home  className='mx-[10px]' color="#818086"/>Home</p>
          <p className='flex p-[1rem] text-[#818086]' ><Video  className='mx-[10px]' color="#b5169e" />Videos</p>
          <p className='text-[#818086]'>Socials</p>
-         <p className='flex p-[1rem] text-[#818086]' ><Github color="cyan" className='mx-[10px]'/><a href='https://www.github.com'>Github</a></p>
+         <p className='flex p-[1rem] text-[#818086]' ><Github color="cyan" className='mx-[10px]'/><a href='https://github.com/ananta-kandel'>Github</a></p>
          <p className='flex p-[1rem] text-[#818086]' ><Instagram  className='mx-[10px]' color="#b5169e"/>Instragram</p>
          <p className='flex p-[1rem] text-[#818086]' ><Linkedin className='mx-[10px]' color="cyan"/>Linkedin</p>
          <p className='text-[#818086]'>Projects</p>
