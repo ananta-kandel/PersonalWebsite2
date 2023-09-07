@@ -1,14 +1,15 @@
 import React from 'react'
 // import logo from '../1.png'
-import personalImage from '../images/dev-ed-wave.png'
+// import personalImage from '../images/dev-ed-wave.png'
 import node from '../images/nodejs.webp'
 import docker from '../images/docker.png'
 import { MoonStar } from 'lucide-react';
 import ImgMediaCard from './Card';
+import own from "../images/own.png";
 
 function Maincontent() {
   const handleclick = () =>{
-    
+    console.log("clicked")
   }
   return (
     <div className= 'sidebar overflow-scroll m-[1rem] h-[95vh] md:w-[80vw] w-[90vw] text-[#818086]'>
@@ -24,7 +25,7 @@ function Maincontent() {
         </div> */}
         <section className='min-h-screen'>
         <nav className='py-10 mb-12 flex justify-between '>
-         <h1 className='font-burtons text-xl'>DEVELOPER</h1>
+         <h1 className='font-burtons text-xl'>ANANTA'S</h1>
          <ul className='flex items-center'>
            <li>
              <MoonStar onClick={handleclick()} className='cursor-pointer text-2xl' />
@@ -36,11 +37,11 @@ function Maincontent() {
       </nav>
       <div className='text-center p-10'>
         <h2 className='text-5xl py-2 text-white font-medium'>Ananta kandel</h2>
-        <h3 className='text-2xl py-2'>Developer</h3>
-        <p className='text-xl py-5 leading-8'>Learning and inspiring other</p>
+        <h3 className='text-2xl py-2'>Full Stack Developer</h3>
+        <p className='text-xl py-5 leading-8'>Transforming imagination into reality through the visionary capabilities harnessed by Charles Babbage's pioneering innovations.</p>
       </div>
       <div className='relative flex justify-center items-center '>
-        <img src={personalImage} className='object-fill bg-gradient-to-b from-teal-500 rounded-full h-80 w-80'>
+        <img src={own} className='object-fill bg-gradient-to-b from-teal-500 rounded-full h-80 w-80'>
         </img>
       </div>
       {/* for frontend */}
