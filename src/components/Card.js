@@ -11,6 +11,7 @@ export default function ImgMediaCard(props) {
         component="img"
         alt="green iguana"
         height="140"
+        width='140'
         image={props.link}      />
       <CardContent sx={{backgroundColor:'#121217'}}>
         <Typography sx={{fontSize:15 ,color:'white'}} variant="h5" component="div">

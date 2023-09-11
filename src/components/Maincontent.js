@@ -6,10 +6,10 @@ import docker from '../images/docker.png'
 import { MoonStar } from 'lucide-react';
 import ImgMediaCard from './Card';
 import own from "../images/own.png";
-
+import js from "../images/js.png"
 function Maincontent() {
   const handleclick = () =>{
-    console.log("clicked")
+    alert("still on process of making")
   }
   return (
     <div className= 'sidebar overflow-scroll m-[1rem] h-[95vh] md:w-[80vw] w-[90vw] text-[#818086]'>
@@ -28,10 +28,10 @@ function Maincontent() {
          <h1 className='font-burtons text-xl'>ANANTA'S</h1>
          <ul className='flex items-center'>
            <li>
-             <MoonStar onClick={handleclick()} className='cursor-pointer text-2xl' />
+             <MoonStar onClick={handleclick} className='cursor-pointer text-2xl' />
            </li>
            <li>
-             <a className="bg-gradient-to-r from-cyan-500 to-teal-500 px-4 py-2 rounded-lg ml-8 text-white"href='https://google.com'>Resume</a>
+             <a className="bg-gradient-to-r from-cyan-500 to-teal-500 px-4 py-2 rounded-lg ml-8 text-white"href='https://ibb.co/G0j0W0x'>Resume</a>
            </li>
          </ul>
       </nav>
@@ -48,27 +48,26 @@ function Maincontent() {
       <p className='text-2xl text-white'>Frontend</p>
     <div className='flex flex-wrap p-100'>
      <ImgMediaCard text="HTML, CSS" link="https://ez-snippet.vercel.app/_next/image?url=%2Ftech%2Ffrontend%2Fhtmlcss.jpeg&w=3840&q=75" />
-     <ImgMediaCard text="HTML, CSS" link="https://ez-snippet.vercel.app/_next/image?url=%2Ftech%2Ffrontend%2Fhtmlcss.jpeg&w=3840&q=75" />
-     <ImgMediaCard text="HTML, CSS" link="https://ez-snippet.vercel.app/_next/image?url=%2Ftech%2Ffrontend%2Fhtmlcss.jpeg&w=3840&q=75" />
-     <ImgMediaCard text="HTML, CSS" link="https://ez-snippet.vercel.app/_next/image?url=%2Ftech%2Ffrontend%2Fhtmlcss.jpeg&w=3840&q=75" />
+     {/* <ImgMediaCard className="w-[h-100px]" text="Javascript" link="https://cdn.pixabay.com/photo/2015/04/23/17/41/javascript-736400_1280.png"/> */}
+     <ImgMediaCard text="Tailwind" link="https://ez-snippet.vercel.app/_next/image?url=%2Ftech%2Ffrontend%2Ftailwind.jpg&w=3840&q=75" />
+     <ImgMediaCard text="React js" link="https://shethink.in/wp-content/uploads/2021/07/react.js-img.png" />
     </div>
    
     {/* for Backend */}
     <p className='text-2xl text-white'>Backend</p>
     <div className='flex flex-wrap p-100'>
      <ImgMediaCard text="Node Js" link={node} />
-     <ImgMediaCard text="Node Js" link={node} />
-     <ImgMediaCard text="Node Js" link={node} />
-     <ImgMediaCard text="Node Js" link={node} />
+     <ImgMediaCard text="Express js" link="https://ez-snippet.vercel.app/_next/image?url=%2Ftech%2Fbackend%2Fexpress.png&w=3840&q=75" />
+     
     </div>
      
 
     {/* for database */}
     <p className='text-2xl text-white'>Database</p>
     <div className='flex flex-wrap p-100'>
-     <ImgMediaCard text="HTML, CSS" link="https://ez-snippet.vercel.app/_next/image?url=%2Ftech%2Ffrontend%2Fhtmlcss.jpeg&w=3840&q=75" />
-     <ImgMediaCard text="HTML, CSS" link="https://ez-snippet.vercel.app/_next/image?url=%2Ftech%2Ffrontend%2Fhtmlcss.jpeg&w=3840&q=75" />
-     <ImgMediaCard text="HTML, CSS" link="https://ez-snippet.vercel.app/_next/image?url=%2Ftech%2Ffrontend%2Fhtmlcss.jpeg&w=3840&q=75" />
+     <ImgMediaCard text="PostgreSQL" link="https://ez-snippet.vercel.app/_next/image?url=%2Ftech%2Fdatabase%2Fpostgres.png&w=3840&q=75" />
+     <ImgMediaCard text="MySQL" link="https://ez-snippet.vercel.app/_next/image?url=%2Ftech%2Fdatabase%2Fmysql.jpeg&w=3840&q=75" />
+     <ImgMediaCard className="m-[10]"text="HTML, CSS" link="https://ez-snippet.vercel.app/_next/image?url=%2Ftech%2Ffrontend%2Fhtmlcss.jpeg&w=3840&q=75" />
      <ImgMediaCard text="HTML, CSS" link="https://ez-snippet.vercel.app/_next/image?url=%2Ftech%2Ffrontend%2Fhtmlcss.jpeg&w=3840&q=75" />
     </div>
 
@@ -76,9 +75,9 @@ function Maincontent() {
     <p className='text-2xl text-white strong'>DevOps</p>
     <div className='flex flex-wrap p-100'>
      <ImgMediaCard text="Docker" link={docker} />
-     <ImgMediaCard text="Docker" link={docker} />
-     <ImgMediaCard text="Docker" link={docker} />
-     <ImgMediaCard text="Docker" link={docker}/>
+     <ImgMediaCard text="git" link="https://ez-snippet.vercel.app/_next/image?url=%2Ftech%2Fdevops%2Fgit.png&w=3840&q=75" />
+     <ImgMediaCard text="Aws" link="https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Amazon_Web_Services_Logo.svg/300px-Amazon_Web_Services_Logo.svg.png" />
+     <ImgMediaCard text="Jenkins" link="https://ez-snippet.vercel.app/_next/image?url=%2Ftech%2Fdevops%2Fjenkins.png&w=3840&q=75"/>
     </div>
     </section>
         
